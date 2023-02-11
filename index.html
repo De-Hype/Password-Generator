@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <section class="container">
+        <h3>Password Generator</h3>
+        <div class="showcase-copy">
+            <input type="text" name="Showcase-password" id="Showcase-password">
+            <span><button class="copy">Copy</button></span>
+        </div>
+        
+        <div class="password-details">
+            <div id="p-length-input" class="p-details">
+                <label class="p-length">Password Length</label>
+                <input type="text" value="12" class="p-length-input">
+            </div>
+
+            <div  class="p-details">
+                <label class="p-length">Include Uppercase</label>
+                <input type="checkbox" id="uppercase"  class="checkbox">
+            </div>
+
+            <div  class="p-details">
+                <label class="p-length">Include Lowercase </label>
+                <input type="checkbox" checked id="lowercase" class="checkbox">
+            </div>
+
+            <div  class="p-details">
+                <label class="p-length">Include Number</label>
+                <input type="checkbox" id="number" class="checkbox">
+            </div>
+
+            <div  class="p-details">
+                <label class="p-length">Include Symbols</label>
+                <input type="checkbox" id="symbols" class="checkbox">
+            </div>
+
+            <button class="submit">Generate Password</button>
+        </div>
+    </section>
+</body>
+
+<script src="app.js" defer></script>
+</html>
