@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(195, 195, 231, 0.43);
+}
+
+.container{
+    padding: 20px;
+    /* 225 228 196 */
+    /* background-color: rgba(225, 228, 196, 0.8 ); */
+    background-color: rgba(109, 32, 150, 0.4);
+    box-shadow: 3px 5px 4px 3px rgba(23, 23, 174, 0.1);
+    /* background-color: bisque; */
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.showcase-copy{
+    padding: 10px 0;
+    position: relative;
+}
+
+.copy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #000;
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Showcase-password{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
+
+.p-length-input{
+    width: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input{
+    border: none;
+    outline: none;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkbox{
+    accent-color: rgb(105, 26, 108);
+}
+
+.submit{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(114, 61, 188);
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.submit:hover{
+    background-color: rgba(114, 61, 188, 0.4);
+    color: #000;
+}
